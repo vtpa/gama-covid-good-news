@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, 'sans serif';
+  scroll-behavior: smooth;
+  background-color: #EFF0F0;
+}
+
+#root {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a.logo {
+  color: #070809;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+a.logo span {
+  color: #089A2B;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #565C5D;
+  font-size: 16px;
+  padding: 10px;
+}
+
+nav ul li a.ativo {
+  background-color: #070809 ;
+  color: #EFF0F0;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+nav ul li a:hover{
+  background-color: #089A2B;
+  color: #EFF0F0;
+  font-weight: bolder;
+  border-radius: 8px;
+}
+
+#banner {
+  width: 100%;
+}
+
+#banner img {
+  display: block;
+  width: 960px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section article {
+  display: block;
+  padding: 30px;
+}
+
+section article div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section article div div {
+  display: list-item;
+  list-style: none;
+}
+
+section article div div a {
+  line-height: 32px;
+  text-decoration: none;
+  color: #070809;
+  transition: .2s;
+}
+
+section article div div a:hover {
+  padding-left: 5px;
+  color: #089A2B;
+}
+
+section article div img {
+  float: right;
+  display: block;
+  margin-right: 20px;
+  width: 80px;
+}
+
+#rodape {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 10px;
+}
+
+#sobre div {
+  display: block;
+}
+
+#sobre div a {
+  display: block !important;
+  margin: 20px 0 10px;
+  color: #070809;
+  font-weight: bolder;
+  border-radius: 8px;
+  text-decoration: none;
+}
+#sobre div a:hover {
+  color: #089A2B;
+}
+
+#sobre div h5 {
+  margin-bottom: 10px;
+  color: #565C5D;
+}
+
+#sobre div p {
+  line-height: 22px;
+}
